@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <title>Title</title>
+  <style>
+
+
+    .title{
+      height: 75px;
+      background-color: antiquewhite;
+      font-size: 50px;
+      text-align: center;
+      font-family: monospace;
+      color: rgba(51, 29, 25, 0.71);
+    }
+    .box_1 {
+      margin: 30px auto auto;
+      padding: 40px 40px 80px;
+      height: 200px;
+      background-color: #faf4f3;
+      box-shadow: rgba(108, 108, 108, 0.35) 0px 5px 5px;
+      width: 1000px;
+    }
+
+    .form {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      border: 1px solid #e1e1e1;
+      display:grid;
+      padding-top: 35px;
+      margin-bottom: 30px;
+    }
+
+    input {
+      margin-left: 50px;
+      flex: 0 0 200px;
+      float: right;
+      border: 1px solid gray;
+      border-radius: 3px;
+      position: relative;
+      width: 200px;
+      height: 25px;
+      padding: 0 0 0 0;
+    }
+
+    .for_inputs {
+      vertical-align: middle;
+      height: 30px;
+      justify-content: center;
+      align-content: center;
+      font-weight: bolder;
+      font-stretch: ultra-expanded;
+      font-family: monospace;
+      color: rgba(51, 29, 25, 0.71);
+      font-size: 20px;
+      text-align:right;
+      margin: 0 200px 0 0;
+      padding: 0 0 0 0;
+    }
+
+    .form input {
+    }
+
+    .for_button {
+      margin: 0 25px 0 0;
+      padding: 0 0 0 0;
+      border: 0;
+    }
+
+
+    #button {
+      background-color: #af9d8f;
+      width: 60px;
+      height: 30px;
+      color: white;
+      font-weight: bolder ;
+      letter-spacing: 1px;
+      font-size: 10px;
+      border-radius: 1px;
+    }
+
+    #form_title {
+      background-color: #faf4f3;
+      color: #967e7e;
+      font-size: 20px;
+      position: absolute;
+      top: -15px;
+      z-index: 1;
+      left: 2em;
+      padding: 0 5px;
+      font-family: monospace;
+    }
+
+    body {
+      padding: 0 0 0 0;
+      margin: 0 0 0 0;
+    }
+
+    .box_2 {
+      width: 1000px;
+      height: 700px;
+      background-color: #faf4f3;
+      justify-content: center;
+      margin: 30px auto auto;
+      padding: 40px 40px 80px;
+    }
+
+    .title_2{
+      height: 35px;
+      background-color: antiquewhite;
+      font-size: 20px;
+      text-align: center;
+      font-family: monospace;
+      color: rgba(51, 29, 25, 0.71);
+    }
+    .name{
+      text-align: left;
+      margin: 75px;
+      padding: 5px;
+      word-spacing: 250px;
+    }
+
+    .box_2a{
+      background-color: #faf4f3;
+      height: 100px;
+      word-spacing: 250px;
+      margin: 30px;
+    }
+
+    .box_2b{
+      background-color: #e1e1e1;
+      margin: 30px;
+      height: 100px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+<div class="title"Title>TITLE</div>
+<div class="box_1">
+  <div class="form">
+    <label id="form_title">Add item</label>
+    <label class="for_inputs"><span>NAME</span><input type="text" /></label>
+    <label class="for_inputs"><span>DESCRIPTION</span><input type="text" /></label>
+    <label class="for_inputs"><span>VALUE</span><input type="text" /></label>
+    <label class="for_button"><input id="button" type="button" value="SAVE"/></label>
+  </div>
+</div>
+<div class="box_2">
+  <div class="title_2">
+    <div class="name">NAME DESCRIPTION VALUE</div>
+  </div>
+  <div class="box_2a">1</div>
+  <div class="box_2b">2</div>
+  <div class="box_2a">3</div>
+  <div class="box_2b">4</div>
+  <div class="box_2a">5</div>
+</div>
+
+
+</body>
+</html>
